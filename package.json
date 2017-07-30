@@ -1,0 +1,21 @@
+{
+  "name": "style-guide-draft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "d <yaremenko.dmitry@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "kss": "kss --config kss-config.json",
+    "server": "http-server ./styleguide",
+    "reference": "backstop reference",
+    "test": "backstop test",
+    "genConfig": "backstop genConfig",
+    "openReport": "backstop openReport"
+  },
+  "devDependencies": {
+    "backstopjs": "^2.7.5",
+    "http-server": "^0.10.0",
+    "kss": "^3.0.0-beta.18",
+    "michelangelo": "^0.6.1"
+  }
+}

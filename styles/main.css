@@ -1,0 +1,19 @@
+// Primary Colors
+//
+// The primary colors for branding.
+//
+// @primary      -  #2980b9; Leader blue
+// @secondary     -  #8e44ad; Purple tech
+// @ternary       -  #c0392b; Sai
+// @quatro  -  rgb(232, 126, 4); Cowabunga
+// @fiv      -  #FDE3A7
+//
+// Styleguide Settings.Colors
+
+// Hard rules
+//
+// Style guide: hard-rule
+hr {
+  border-top: 5px solid #999;
+}
+
